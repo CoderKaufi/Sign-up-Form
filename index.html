@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link href = "styles.css" rel = "stylesheet">
+</head>
+<body>
+    <img src="background.png" alt="Gold's gym logo" class = "background">
+    <div>
+        <div>
+        <div class = "sign-up-motivation">
+            Sign-up for gold's gym, <div><em><strong>the best gym in the world!</strong> </em></div>
+        </div>
+        <div class = "sign-up-input">
+        <h1>Let's do this!</h1>
+        <form>
+            <div class = "cols">
+            <div class = "col">
+                <div class = "input">
+                    
+                    <label for = "first-name">FIRST NAME</label>
+                    <input type="text" id = "first-name" name = "first-name" required placeholder="Arnold">
+                </div>
+                <div class = "input">
+                    <label for = "last-name">LAST NAME</label>
+                    <input type="text" id = "last-name" name = "last-name" required placeholder="Schwarzenegger">
+                </div>
+                <div class = "input">
+                    <label for = "email">EMAIL</label>
+                    <input type="email" id = "email" name = "email" required placeholder="yourmail@example.com">
+                </div>
+                
+            </div>
+            <div class = "col">
+                <div class = "input">
+                    <label for = "phone-number">PHONE NUMBER</label>
+                    <input type="tel" id = "phone-number" name = "phone-number" required placeholder="911">
+                </div>
+                <div class = "input">
+                    <label for = "password">PASSWORD</label>
+                    <input type="password" id = "password" name = "password" required>
+                </div>
+                <div class = "input">
+                    <label for = "comfirm-password">COMFIRM PASSWORD</label>
+                    <input type="password" id = "comfirm-password+" name = "password" required>
+                </div>
+            </div>
+        </div>
+    </div>
+            <button type = "submit"><strong>Sign up</strong></button>
+        </form>
+        <div class = "already-signed-up">Already signed up? <a href = ""><strong>Log in</strong></a></div>
+    </div>
+</body>
+</html>
